@@ -1,0 +1,125 @@
+/* General Styles */
+body,
+html {
+  height: 100%;
+  margin: 0;
+  background-color: #eeffd2;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Layout Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Header */
+.header {
+  height: 150px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Headings */
+h1 {
+  font-family: 'Jacquard 12', sans-serif;
+  font-size: 6rem;
+  text-align: center;
+}
+
+h2 {
+  position: relative;
+  font-size: 2rem;
+}
+
+#title {
+  font-family: 'Jacquard 12', sans-serif;
+  font-size: 4rem;
+  text-align: center;
+}
+
+#subtitle {
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* Main Section */
+.main {
+  display: flex;
+  flex: 1;
+}
+
+.spacer {
+  width: 7%; /* Adjust as needed */
+  background: transparent; /* Or a subtle color */
+}
+
+/* Left and Right Sections */
+.left,
+.right {
+  flex: 1;
+  padding: 20px;
+  outline: 1px solid black;
+}
+
+/* Paragraphs */
+p {
+  position: relative;
+  margin-left: 15px;
+  font-size: 1rem;
+}
+
+/* Links */
+a {
+  font-family: 'Jacquard 12', sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  color: #000000;
+  font-size: 22px;
+  font-weight: bold;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Apply animation on hover */
+a:hover {
+  animation: wobble 0.5s ease-in-out infinite;
+}
+
+/*animation keyframes*/
+@keyframes wobble {
+  0% {
+    rotate: 0deg;
+    translate: 0 0;
+  }
+  50% {
+    rotate: -2deg;
+    translate: -5px 0;
+  }
+  80% {
+    rotate: 2deg;
+    translate: 5px 0;
+  }
+}
+
+/* Article Styling */
+article {
+  border-bottom: 1px solid;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+/* Image Styling */
+img {
+  max-width: 70%;
+  position: relative;
+  display: block;
+  margin: 10px auto;
+}
+
+/* Apply animation on hover */
+img:hover {
+  animation: wobble 0.5s ease-in-out infinite;
+}
