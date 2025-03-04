@@ -46,6 +46,18 @@ h2 {
   text-align: center;
 }
 
+#header-title {
+  font-family: 'Jacquard 12', sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  max-block-size: 70%;
+  transition: transform 10s ease-in-out;
+}
+
+#header-title:hover {
+  transform: scale(100);
+}
+
 /* Main Section */
 .main {
   display: flex;
