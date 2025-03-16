@@ -21,6 +21,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  /*background-color: #eeffd2;*/
 }
 
 /* margin */
@@ -33,6 +34,9 @@ h1 {
   font-family: 'Jacquard 12', sans-serif;
   font-size: 6rem;
   text-align: center;
+  background-color: #eeffd2;
+  border: 1px solid #eeffd2;
+  border-radius: 3%;
 }
 
 h2 {
@@ -134,6 +138,7 @@ img {
   position: relative;
   display: block;
   margin: 10px auto;
+  border: 30px solid #eeffd2;
 }
 
 /* Apply animation on hover */
